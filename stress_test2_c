@@ -1,0 +1,20 @@
+#include <stdio.h> //standard input output library
+
+// 0.13+0.13+0.13 = 0.39 but the compiler returns 0.39000000000000001 which is not equal to 0.39 so the if statement is false
+
+
+//*********************************************************
+
+
+
+void main(){ //main function
+int a = 0.13+0.13+0.13; //add 0.13 three times
+if (a == 0.39){    //check if the sum is equal to 0.39
+    printf("True"); //print true if the sum is equal to 0.39
+    }
+else{
+    printf("false output "); // print false if the sum is not equal to 0.39
+    }
+}
+
+//*********************************************************
