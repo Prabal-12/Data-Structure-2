@@ -54,7 +54,7 @@ int main(int argc, char const *argv[])
     srand(time(0)); // seed for random number generator
     nodeAddress list; // declare a linked list
     list = generateLinkedList(n); // generate a linked list
-    printLinkedList(list, n); // print the linked list
+    printLinkedList(list); // print the linked list
     deleteLinkedList(list); // delete the linked list
     return 0;
 }
